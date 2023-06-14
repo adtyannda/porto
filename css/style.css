@@ -316,6 +316,25 @@ header.sticky{
 	cursor: pointer;
 }
 
+.action {
+	position: relative;
+}
+
+#popup-message {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #f1f1f1;
+	padding: 10px;
+	border-radius: 5px;
+	display: none;
+}
+
+#popup-message.show {
+	display: block;
+}
+
 .ends{
 	text-align: center;
 	padding: 40px;
