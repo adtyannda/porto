@@ -249,7 +249,8 @@ header.sticky{
 .about-text p{
 	margin: 0;
 	padding: 0;
-	max-width: 550px;
+	width: 100px;
+	height: auto;
 	font-size: var(--p-font);
 	color: var(--secound-color);
 	line-height: 28px;
