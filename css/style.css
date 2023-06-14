@@ -211,31 +211,41 @@ header.sticky{
 
 .about-text {
 	text-align: center;
+	margin-top: 20px;
 }
 
 .media-container {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+	align-items: center;
 }
 
-.about-video,
+.about-video {
+	grid-column: 1 / 4;
+	text-align: center;
+}
+
 .photo-gallery {
-	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.photo-gallery img {
+	width: 100%;
+	object-fit: cover;
 }
 
 .text-content {
-	flex: 1;
+	text-align: center;
+	margin-top: 20px;
 }
 
 @media (max-width: 768px) {
-	.about-video,
-	.photo-gallery {
-		width: 100%;
-	}
-	.text-content {
-		order: -1;
-		margin-bottom: 20px;
+	.media-container {
+		grid-template-columns: 1fr;
 	}
 }
 
