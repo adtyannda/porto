@@ -247,9 +247,7 @@ header.sticky{
 	font-weight: 500;
 }
 .about-text p{
-	margin: 0;
-	padding: 0;
-	width: 100px;
+	max-width: 550px;
 	height: auto;
 	font-size: var(--p-font);
 	color: var(--secound-color);
