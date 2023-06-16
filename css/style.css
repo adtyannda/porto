@@ -279,8 +279,6 @@ header.sticky{
 	object-fit: cover;
 	border-radius: 12px;
 	transition: transform 0.3s;
-	margin-left: 82%;
-  	margin-right: 82%;
 }
 
 .col img {
